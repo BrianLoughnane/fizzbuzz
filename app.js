@@ -1,6 +1,5 @@
 $(document).ready(function() {
 
-	var answer = prompt("Please enter a number to fizz buzz up to");
 
 	$("#input")
 	.fadeIn();
