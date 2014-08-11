@@ -17,15 +17,9 @@ $(document).ready(function() {
 			}
 		}
 
-		// $("#holder").fadeIn("slow").delay(1600, function() {
-		// 	checker();
-		// });
-
-		// $("#holder").fadeIn("slow", function() {
-		// 	checker();
-		// });
-		
-		$("#holder").fadeIn("slow", checker);
+		$("#holder").fadeIn("slow").delay(1600, function() {
+			checker();
+		});
 		
 
 
