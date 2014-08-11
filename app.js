@@ -1,10 +1,7 @@
 $(document).ready(function() {
 
-	var answer = prompt("Please enter a number to fizz buzz up to");
-
 	$("#input")
 	.fadeIn();
-
 
 
 	$("button")
@@ -13,12 +10,13 @@ $(document).ready(function() {
 		var number = $("#input").val();
 		var body = $("body");
 
-		$("#holder").fadeOut("slow", function() {
 
+		$("#holder").fadeOut("slow", function() {
 
 			$("#holder").empty();
 
 			for(var i=1; i <= number; i++) {
+
 
 				if((i%3 === 0) && (i%5 === 0)){
 					$("#holder").append("<div>fizz buzz</div>");
