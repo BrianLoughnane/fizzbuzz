@@ -5,8 +5,7 @@ $(document).ready(function() {
 	$("#input")
 	.fadeIn();
 
-
-
+<<<<<<< HEAD
 		for(var i=1; i <= number; i++) {
 			if((i%3===0)&&(i%5===0)){
 				$("#holder").append("<div>fizz buzz</div>");
@@ -51,8 +50,8 @@ $(document).ready(function() {
 	};
 
 	checker();
-
-
+=======
+>>>>>>> parent of e8c036a... Refactor using functions
 
 	$("button")
 	.fadeIn()
