@@ -20,7 +20,6 @@ $(document).ready(function() {
 		$("#holder").fadeIn("slow").delay(1600, function() {
 			checker();
 		});
-		
 
 
 	};	
