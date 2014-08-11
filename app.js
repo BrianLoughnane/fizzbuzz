@@ -1,11 +1,10 @@
 $(document).ready(function() {
 
-	var answer = prompt("Please enter a number to fizz buzz up to");
+	var fizzBuzz = function(number) {
 
-	$("#input")
-	.fadeIn();
+		$("#holder").fadeOut();
+		$("#holder").empty();
 
-<<<<<<< HEAD
 		for(var i=1; i <= number; i++) {
 			if((i%3===0)&&(i%5===0)){
 				$("#holder").append("<div>fizz buzz</div>");
@@ -50,39 +49,47 @@ $(document).ready(function() {
 	};
 
 	checker();
-=======
->>>>>>> parent of e8c036a... Refactor using functions
 
-	$("button")
-	.fadeIn()
-	.on("click", function() {
-		var number = $("#input").val();
-		var body = $("body");
 
-		$("#holder").fadeOut("slow", function() {
 
-			$("#holder").empty();
 
-			for(var i=1; i <= number; i++) {
 
-				if((i%3 === 0) && (i%5 === 0)){
-					$("#holder").append("<div>fizz buzz</div>");
-				} else if (i%3 === 0) {
-					$("#holder").append("<div>fizz</div>");	
-				} else if (i%5 === 0) {
-					$("#holder").append("<div>buzz</div>");
-				} else {
-					$("#holder").append("<div>" + i + "</div>");
-				}
 
-			}
 
-			$("#holder").fadeIn("slow");
+	// $("#input")
+	// .fadeIn();
+
+
+	// $("button")
+	// .fadeIn()
+	// .on("click", function() {
+	// 	var number = $("#input").val();
+	// 	var body = $("body");
+
+	// 	$("#holder").fadeOut("slow", function() {
+
+	// 		$("#holder").empty();
+
+	// 		for(var i=1; i <= number; i++) {
+
+	// 			if((i%3 === 0) && (i%5 === 0)){
+	// 				$("#holder").append("<div>fizz buzz</div>");
+	// 			} else if (i%3 === 0) {
+	// 				$("#holder").append("<div>fizz</div>");	
+	// 			} else if (i%5 === 0) {
+	// 				$("#holder").append("<div>buzz</div>");
+	// 			} else {
+	// 				$("#holder").append("<div>" + i + "</div>");
+	// 			}
+
+	// 		}
+
+	// 		$("#holder").fadeIn("slow");
 		
-		});
+	// 	});
 		
 
-	});
+	// });
 
 
 	$(document)
